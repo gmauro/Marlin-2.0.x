@@ -127,6 +127,7 @@
  */
 #define BAUDRATE 19200
 
+
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
 
@@ -1912,9 +1913,9 @@
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
-#define ST7920_DELAY_1 DELAY_NS(0)
-#define ST7920_DELAY_2 DELAY_NS(0)
-#define ST7920_DELAY_3 DELAY_NS(93)
+#define ST7920_DELAY_1 DELAY_NS(63)
+#define ST7920_DELAY_2 DELAY_NS(63)
+#define ST7920_DELAY_3 DELAY_NS(63)
 
 //
 // ReprapWorld Graphical LCD
